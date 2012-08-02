@@ -3,7 +3,7 @@
 # This module adds a vlan
 class vlan(
   $interface,
-  $vlan,
+  $vlan
 ) {
 
   $vlanname = "$interface.$vlan"
